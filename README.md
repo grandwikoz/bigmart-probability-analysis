@@ -2,7 +2,9 @@
 A project for Pacmann's Probability Course
 
 # Background
-This data comes from Kaggle (https://www.kaggle.com/datasets/thedevastator/bigmart-product-sales-factors). This project will focus on certain statistical features to gain valuable insights
+This data comes from Kaggle (https://www.kaggle.com/datasets/thedevastator/bigmart-product-sales-factors). This project will focus on certain statistical features to gain valuable insights.
+
+Please note that this dataset is not based on single occurrence such as point-of-sales data. This data, in itself, is a summary of sales frequency for each products in every stores. This makes it quite tricky to use since basic statistical properties (like variance and STD) will have to be used quite differently (with products instead of occurrences, statistical properties are based on gaps between products sales, unlike occurrences which are based on each unique transactions).
 
 # Objectives
 1. Probability Distribution and Expected Values
